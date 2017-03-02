@@ -48,7 +48,9 @@ body {
     background-color: #36454f;
     position:relative;
 }
-
+.loadtitle {
+    background-image: "./images/crowdz.PNG"
+}
 
 
 /*
