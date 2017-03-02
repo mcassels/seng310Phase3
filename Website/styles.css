@@ -86,6 +86,15 @@ body {
     opacity: .8;
     vertical-align:top;
 }
+#androidBottomBar {
+    width: 317px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    vertical-align:bottom;
+    background-position: center;
+    background-image: url(android_bottom_bar.png)
+}
 #Time {
     position:relative;
     margin-top: -18px;
