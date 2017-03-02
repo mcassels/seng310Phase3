@@ -1,0 +1,97 @@
+body {
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*
+ *  WEBSITE CSS
+ *
+ */
+.box:hover{
+    background-color: Black;
+}
+.mid {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-300px; /* this is half the height of your div*/
+    margin-left:-512px; /*this is half of width of your div*/
+}
+.phone {
+    width: 1024px;
+    height: 1024px;
+    background: url(phone.jpg);
+    opacity: 0.9;
+    /*border: solid 4px #36454f;*/
+}
+.topbar {
+    position:absolute;
+    background-color: #36454f;
+    margin-top:-20px;
+    margin-left:-20px;
+    width: 150%;
+    height: 50px;
+}
+.button{
+    background-color: #36454f;
+}
+
+#drop:hover{
+    background-color:Black;
+    .buttonText {
+        color:blue;
+    }
+}
+#drop {
+    width:100px;
+    height:50px;
+    background-color: #36454f;
+    position:relative;
+}
+
+
+
+/*
+ * ANDROID CSS
+ *
+ */
+
+.screen {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -286px;
+    margin-left: -160px;
+    width: 317px;
+    height: 561px;
+    background-image: url(background_map.png);
+    display:inline-block;
+
+}
+
+.buttonText{
+    color:white;
+    position:absolute;
+    margin-top: 22%;
+    margin-left: 35%;
+}
+
+
+
+
+#androidBar {
+    width: 317px;
+    height: 17px;
+    background-color: Grey;
+    opacity: .8;
+    vertical-align:top;
+}
+#Time {
+    position:relative;
+    margin-top: -18px;
+    margin-left: 250px;
+    font:15px arial, sans-serif;
+    color:White;
+    opacity: .8;
+
+}
