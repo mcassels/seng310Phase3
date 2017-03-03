@@ -55,13 +55,14 @@ body {
 }
 
 .loadtitle {
-    background: url("./images/crowdz.PNG") no-repeat center center fixed;
+    background: url("./images/crowdz2.PNG") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
 
 }
 IMG.assurance {
+    margin-top: 300px;
    margin-right: auto;
    margin-left: auto;
    display: block;
