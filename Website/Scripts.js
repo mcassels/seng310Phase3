@@ -27,7 +27,10 @@ function showInfo() {
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="80px";
     document.getElementsByClassName("infoBar")[0].style.marginTop="375px";
-    document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
+    //document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
+    document.getElementsByClassName("infoBar")[0].style.backgroundImage="url('infobar.png')";
+    document.getElementsByClassName("infoBar")[0].style.backgroundSize="317px 80px";
+    document.getElementsByClassName("infoBar")[0].style.zIndex="10";
 }
 
 function removeInfo() {
