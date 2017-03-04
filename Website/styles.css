@@ -1,5 +1,5 @@
-/*font-family: -apple-system, 
-    BlinkMacSystemFont, "Segoe UI", 
+/*font-family: -apple-system,
+    BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif;
 */
 
@@ -62,7 +62,7 @@ body {
 
 }
 IMG.assurance {
-    margin-top: 300px;
+  margin-top: 300px;
    margin-right: auto;
    margin-left: auto;
    display: block;
@@ -75,6 +75,16 @@ button.OK {
    display: block;
    width: 10%;
    opacity: .75;
+}
+button.back {
+  background: transparent;
+  border: none !important;
+  vertical-align: center;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 5px;
+  line-height: 60px;
 }
 
 
