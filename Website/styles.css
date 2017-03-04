@@ -1,3 +1,8 @@
+/*font-family: -apple-system, 
+    BlinkMacSystemFont, "Segoe UI", 
+    Helvetica, Arial, sans-serif;
+*/
+
 body {
     background-repeat:no-repeat;
     background-size:cover;
@@ -48,8 +53,28 @@ body {
     background-color: #36454f;
     position:relative;
 }
+
 .loadtitle {
-    background-image: "./images/crowdz.PNG"
+    background: url("./images/crowdz2.PNG") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+IMG.assurance {
+    margin-top: 300px;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 20%;
+   opacity: .75;
+}
+button.OK {
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 10%;
+   opacity: .75;
 }
 
 
