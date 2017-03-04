@@ -1,6 +1,6 @@
 function time() {
     var d = new Date;
-    var hours = d.getUTCHours() - 8;
+    var hours = d.getUTCHours()-8;
     var minutes = d.getUTCMinutes();
     var ampm = "AM";
 
@@ -20,4 +20,20 @@ function time() {
 
 function padDigits(number, digits) {
     return Array(Math.max(digits - String(number).length + 1, 0)).join(0) + number;
+}
+
+function showInfo() {
+    document.getElementsByClassName("infoBar")[0].style.position="relative";
+    document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
+    document.getElementsByClassName("infoBar")[0].style.height="80px";
+    document.getElementsByClassName("infoBar")[0].style.marginTop="375px";
+    document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
+}
+
+function removeInfo() {
+    document.getElementsByClassName("infoBar")[0].style.position="";
+    document.getElementsByClassName("infoBar")[0].style.width=""; /* -20 from padding of logo */
+    document.getElementsByClassName("infoBar")[0].style.height="";
+    document.getElementsByClassName("infoBar")[0].style.marginTop="";
+    document.getElementsByClassName("infoBar")[0].style.backgroundColor="";
 }
