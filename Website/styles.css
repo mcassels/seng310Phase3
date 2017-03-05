@@ -50,7 +50,54 @@ body {
     position:relative;
 }
 
+<<<<<<< HEAD
+.loadtitle {
+    background: url("./images/crowdz2.PNG") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 
+}
+IMG.assurance {
+  margin-top: 300px;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 20%;
+   opacity: .75;
+}
+button.OK {
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 10%;
+   opacity: .75;
+}
+button.back {
+  background: transparent;
+  border: none !important;
+  vertical-align: center;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 5px;
+  line-height: 60px;
+}
+button.invisible {
+  height: 100px;
+  width: 100%;
+  float: left;
+  text-align: left;
+  background: transparent;
+  border: none !important;
+}
+/*
+ * ANDROID CSS
+ *
+ */
+=======
+
+>>>>>>> e9bbb20ccfdc8cbab0910ced016a4056c28c3155
 
 /*****************************************
  ***********  Android CSS  ***************
@@ -156,4 +203,53 @@ body {
 }
 
 
+}
+
+/*TEXT INPUT*/
+form {
+  border: none
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 0;
+}
+.feedback {
+  padding: 20px 20px 0 20px;
+}
+.feedback input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+  font-size: 15px;
+}
+.send-feedback {
+  padding: 20px;
+}
+.send-feedback .btn {
+  background: #389494;
+  box-shadow: 0px 2px 0px #ccc;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+  width: 90px;
+  height: 40px;
+  padding: 8px 16px;
+}
+.send-feedback label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
 }
