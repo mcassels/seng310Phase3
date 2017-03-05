@@ -20,7 +20,7 @@ body {
 .phone {
     width: 1024px;
     height: 1024px;
-    background: url(phone.jpg);
+    background: url(images/phone.jpg);
     opacity: 0.9;
     /*border: solid 4px #36454f;*/
 }
@@ -63,7 +63,7 @@ body {
     margin-left: -160px;
     width: 317px;
     height: 561px;
-    background-image: url(background_map.png);
+    background-image: url(images/background_map.png);
     display:inline-block;
 
 }
