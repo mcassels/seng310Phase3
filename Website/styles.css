@@ -51,7 +51,9 @@ body {
 }
 
 
+
 .croudzBackground {
+
     background: url("./images/crowdz2.PNG") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
@@ -100,6 +102,7 @@ button.invisible {
  *
  */
 
+
 /*****************************************
  ***********  Android CSS  ***************
  ****************************************/
@@ -111,7 +114,9 @@ button.invisible {
     margin-left: -160px;
     width: 317px;
     height: 561px;
+
     background-image: url(images/background_map.png);
+
     display:inline-block;
 
 }
