@@ -14,7 +14,7 @@ body {
     position:absolute;
     top:50%;
     left:50%;
-    margin-top:-450px;
+    margin-top:-400px;
     margin-left:-512px;
 }
 .phone {
@@ -126,27 +126,42 @@ button.invisible {
 
 #androidBar {
     width: 317px;
-    height: 17px;
+    height: 20px;
     background-color: #006600;
     opacity: 1;
     vertical-align:top;
+    opacity: .8;
 }
 #Time {
     position:relative;
-    margin-top: -18px;
-    margin-left: 250px;
+    margin-top: -22px;
+    margin-left: 50px;
     font:15px arial, sans-serif;
     color:White;
     opacity: .8;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+#statusBarIcons {
+    margin-top: -19px;
+    margin-bottom: 5px;
+    margin-left:200px;
+    padding-bottom: 1px;
+    position:relative;
+    z-index: 1;
+}
+
+#cellAndWifi {
+    position:relative;
+    padding-top: -10px;
 }
 
 .crowdz {
         width:297px; /* -20 from padding of logo */
-        height:80px;
+        height:83px;
         margin-top: -10px;
 
-        background-color: #00cc00;
+        background-color: #45a162;
         position:relative;
 }
 #logo {
