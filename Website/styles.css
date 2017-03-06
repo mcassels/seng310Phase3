@@ -50,10 +50,7 @@ body {
     position:relative;
 }
 
-
-
 .croudzBackground {
-
     background: url("./images/crowdz2.PNG") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
