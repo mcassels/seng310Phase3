@@ -7,8 +7,8 @@
         <script type="text/javascript" src="Scripts.js"></script>
     </head>
 
-    <body>
-        <! This is a top bar of the website, NOT THE ANDROID>
+    <body class="croudzBackground">
+        <!-- This is a top bar of the website, NOT THE ANDROID-->
         <div class="topbar">
             <div class="button" id="drop">
                 <div class="buttonText">
@@ -19,20 +19,15 @@
 
             <div id="testButtonOpen">
                 <img src="images/test.png" width="35" height="35" onclick="showInfo()">
+
             </div>
-
-            <button onclick="removeInfo()" id="testButtonClose" value="test">
-                test close info bar
-            </button>
-
-
-        <!The android part starts here, the mid class is just for centering
-          objects around the middle of the page>
+        <!--The android part starts here, the mid class is just for centering
+          objects around the middle of the page-->
         <div class="mid">
             <div class="phone" background="images/phone.jpg">
             </div>
 
-            <!Put everything here, This is the contents within the screen>
+            <!--Put everything here, This is the contents within the screen-->
             <div class="screen">
                 <div id="androidBar">
 
@@ -59,8 +54,8 @@
                 </p>
                 </div>
 
-
-                <div class="infoBar">
+                <!-- Able to close the infobar by clicking on it -->
+                <div class="infoBar"  onclick="removeInfo()">
                     <div id="infobar-background">
 
                     </div>

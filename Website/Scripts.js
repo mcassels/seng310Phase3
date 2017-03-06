@@ -23,6 +23,7 @@ function padDigits(number, digits) {
 }
 
 function showInfo() {
+
     document.getElementsByClassName("infoBar")[0].style.position="relative";
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="80px";
