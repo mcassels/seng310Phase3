@@ -50,15 +50,15 @@ body {
     position:relative;
 }
 
-<<<<<<< HEAD
-.loadtitle {
+
+.croudzBackground {
     background: url("./images/crowdz2.PNG") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
 
 }
-IMG.assurance {
+.assurance {
   margin-top: 300px;
    margin-right: auto;
    margin-left: auto;
@@ -66,6 +66,10 @@ IMG.assurance {
    width: 20%;
    opacity: .75;
 }
+
+
+
+
 button.OK {
    margin-right: auto;
    margin-left: auto;
@@ -95,9 +99,6 @@ button.invisible {
  * ANDROID CSS
  *
  */
-=======
-
->>>>>>> e9bbb20ccfdc8cbab0910ced016a4056c28c3155
 
 /*****************************************
  ***********  Android CSS  ***************
@@ -190,11 +191,32 @@ button.invisible {
     z-index:2;
 
 }
+.hide {
+  height: 0;
+}
+
+#infoBarSlideIn {
+    transition-property: all;
+    overflow-y: hidden;
+    left: -200px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1.25s;
+}
 
 
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
 
 .infoBar {
-
+  opacity: .8;
+  
 
 }
 
