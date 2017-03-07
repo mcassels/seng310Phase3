@@ -15,6 +15,14 @@ body {
 .box:hover{
     background-color: Black;
 }
+
+.croudzBackground {
+    background: url("./images/crowdz2.PNG") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
 .mid {
     position:absolute;
     top:50%;
