@@ -195,8 +195,8 @@ button.invisible {
 
 #testButtonOpen {
     position:absolute;
-    margin-top: 588px;
-    margin-left: 640px;
+    margin-top: 550px;
+    margin-left: 850px;
     z-index:2;
 
 }
@@ -233,8 +233,6 @@ button.invisible {
 
 .infoBar {
   opacity: .8;
-  
-
 }
 
 #infobar-background {
