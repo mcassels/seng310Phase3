@@ -1,0 +1,314 @@
+/*font-family: -apple-system,
+    BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+*/
+
+body {
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*
+ *  WEBSITE CSS
+ *
+ */
+.box:hover{
+    background-color: Black;
+}
+.mid {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-300px; /* this is half the height of your div*/
+    margin-left:-512px; /*this is half of width of your div*/
+}
+.phone {
+    width: 1024px;
+    height: 1024px;
+    background: url(phone.jpg);
+    opacity: 0.9;
+    /*border: solid 4px #36454f;*/
+}
+.topbar {
+    position:absolute;
+    background-color: #36454f;
+    margin-top:-20px;
+    margin-left:-20px;
+    width: 150%;
+    height: 50px;
+}
+.button{
+    background-color: #36454f;
+}
+
+#drop:hover{
+    background-color:Black;
+    .buttonText {
+        color:blue;
+    }
+}
+#drop {
+    width:100px;
+    height:50px;
+    background-color: #36454f;
+    position:relative;
+}
+
+.loadtitle {
+    background: url("./images/crowdz2.PNG") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+IMG.assurance {
+  margin-top: 300px;
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 20%;
+   opacity: .75;
+}
+button.OK {
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 10%;
+   opacity: .75;
+}
+button.back {
+  background: transparent;
+  border: none !important;
+  vertical-align: center;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 5px;
+  line-height: 60px;
+}
+button.invisible {
+  height: 100px;
+  width: 100%;
+  float: left;
+  text-align: left;
+  background: transparent;
+  border: none !important;
+}
+/*
+ * ANDROID CSS
+ *
+ */
+
+.screen {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -286px;
+    margin-left: -160px;
+    width: 317px;
+    height: 561px;
+    background-image: url(background_map.png);
+    display:inline-block;
+}
+.blankScreen {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -286px;
+    margin-left: -160px;
+    width: 317px;
+    height: 561px;
+    background-color: white;
+    display:inline-block;
+}
+.headerBar{
+  background-color: #45a162;
+  vertical-align: top;
+  position: relative;
+  width: 317px;
+  height: 60px;
+  box-shadow: 0px 5px 2px #ccc;
+  color: white;
+}
+.headerBarText{
+  color: white;
+  font-size: 22px;
+  margin-left: 70px;
+  vertical-align: center;
+  line-height: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.headingText{
+  color: black;
+  font-size: 18px;
+  margin-left: 12px;
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.normalText{
+  color: grey;
+  font-size: 12px;
+  margin-left: 12px;
+  margin-top: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.buttonText{
+    color:white;
+    position:absolute;
+    margin-top: 22%;
+    margin-left: 35%;
+}
+
+/*THIS IS A HORIZONTAL LINE*/
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-left: 12px;
+}
+
+
+
+
+#androidBar {
+    width: 317px;
+    height: 17px;
+    background-color: Grey;
+    opacity: .8;
+    vertical-align:top;
+}
+#androidBottomBar {
+    width: 317px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    vertical-align:bottom;
+    background-position: center;
+    background-image: url(android_bottom_bar.png)
+}
+#Time {
+    position:relative;
+    margin-top: -18px;
+    margin-left: 250px;
+    font:15px arial, sans-serif;
+    color:White;
+    opacity: .8;
+
+}
+/*THE FOLLOWING IS FOR TOGGLE SWITCHES*/
+/* The switch - the box around the slider */
+.switch {
+  position: absolute;
+  right: 0px;
+  margin-right: 18px;
+  display: inline-block;
+  width: 27px;
+  height: 13px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: -25%;
+  left: -25%;
+  /*transform: translate(-50%, -50%);*/
+
+  background-color: #389494;
+  box-shadow: 0px 2px 0px #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #6bc7c7;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #6bc7c7;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*TEXT INPUT*/
+form {
+  border: none
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 0;
+}
+.feedback {
+  padding: 20px 20px 0 20px;
+}
+.feedback input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+  font-size: 15px;
+}
+.send-feedback {
+  padding: 20px;
+}
+.send-feedback .btn {
+  background: #389494;
+  box-shadow: 0px 2px 0px #ccc;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 15px;
+  width: 90px;
+  height: 40px;
+  padding: 8px 16px;
+}
+.send-feedback label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
