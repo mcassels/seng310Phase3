@@ -194,9 +194,9 @@ hr {
     height: 50px;
     position: absolute;
     bottom: 0;
-    vertical-align:bottom;
+    vertical-align: bottom;
     background-position: center;
-    background-image: url(android_bottom_bar.png)
+    background-image: url(images/android_bottom_bar.png);
 }
 #Time {
     position:relative;
@@ -319,4 +319,11 @@ input {
   font-size: 12px;
   float: left;
   margin: 10px 0 0 20px;
+}
+#gotYourFeedback {
+  color: #7c7c80;
+  height: 60px;
+  width: 60px;
+  display: block;
+  position: absolute;
 }
