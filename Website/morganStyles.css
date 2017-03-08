@@ -320,10 +320,3 @@ input {
   float: left;
   margin: 10px 0 0 20px;
 }
-#gotYourFeedback {
-  color: #7c7c80;
-  height: 60px;
-  width: 60px;
-  display: block;
-  position: absolute;
-}
