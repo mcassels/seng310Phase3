@@ -133,12 +133,13 @@ button.invisible {
     height: 20px;
     background-color: #006600;
     opacity: 1;
+    margin-top: 18px;
     vertical-align:top;
     opacity: .8;
 }
 #Time {
     position:relative;
-    margin-top: -22px;
+    margin-top: -21px;
     margin-left: 50px;
     font:15px arial, sans-serif;
     color:White;
@@ -147,12 +148,14 @@ button.invisible {
 }
 
 #statusBarIcons {
-    margin-top: -19px;
+    margin-top: -20px;
     margin-bottom: 5px;
     margin-left:200px;
     padding-bottom: 1px;
+    padding-top: 2px;
+
     position:relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 #cellAndWifi {
@@ -161,36 +164,47 @@ button.invisible {
 }
 
 .crowdz {
-        width:297px; /* -20 from padding of logo */
+        width:277px; /* -20 from padding of logo */
         height:83px;
-        margin-top: -10px;
-
+        margin-top: 0px;
         background-color: #45a162;
         position:relative;
+        z-index: 1;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: -apple-system,
+        BlinkMacSystemFont, "Segoe UI",
+        Helvetica, Arial, sans-serif;
 }
+
 #logo {
     position:relative;
-    margin-top: -19px;
+    padding-top: 20px;
+    /*font:18px arial, sans-serif;*/
 
-    padding-top: 10px;
-    padding-left:20px;
-    font:18px arial, sans-serif;
+}
+
+#mapAndFav {
+    margin-top: 20px;
+    position:relative;
 }
 
 #mapLabel {
     position:relative;
-    margin-top:  -10px;
-    /*margin-left: 10px;*/
-    padding-top: 10px;
-    font:18px arial, sans-serif;
+
+    /*font:18px arial, sans-serif;*/
 }
+
+
 
 #favouritesLabel {
     position:relative;
-    margin-top:  -50px;
-    margin-left: 200px;
-    padding-top: 10px;
-    font:18px arial, sans-serif;
+    float:right;
+    margin-top: -30px;
+
+    /*margin-left: 200px;*/
+
+    /*font:18px arial, sans-serif;*/
 }
 
 #testButtonOpen {
