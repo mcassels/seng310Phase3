@@ -167,6 +167,24 @@ button.invisible {
     margin-top: 22%;
     margin-left: 35%;
 }
+.receivedFeedbackText{
+  color: #36454f;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 12px;
+  margin-top: 30px;
+  float: left;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.checkmark{
+  color: #389494;
+  margin-right: 30px;
+  margin-left: 35px;
+  font-size: 70px;
+  float: right;
+  display: inline-block;
+}
 
 /*THIS IS A HORIZONTAL LINE*/
 hr {
@@ -177,6 +195,12 @@ hr {
     margin: 1em 0;
     padding: 0;
     margin-left: 12px;
+}
+hr.topThanksForFeedback {
+  margin-top: 40px;
+}
+hr.bottomThanksForFeedback {
+  margin-top: 120px;
 }
 
 
@@ -206,6 +230,11 @@ hr {
     color:White;
     opacity: .8;
 
+}
+#beforeSubmit{
+}
+#afterSubmit{
+    display: none;
 }
 /*THE FOLLOWING IS FOR TOGGLE SWITCHES*/
 /* The switch - the box around the slider */

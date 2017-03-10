@@ -9,6 +9,14 @@
     </head>
 
     <body class="croudzBackground">
+      <script type="text/javascript">
+
+      function receiveFeedback(button) {
+         button.style.display = "none";
+         beforeSubmit.style.display = "none";
+         afterSubmit.style.display = "block"
+      }
+      </script>
       <div class="mid">
           <div class="phone" background="phone.jpg">
 
@@ -32,25 +40,37 @@
 
               </div>
 
+              <div id="beforeSubmit">
+                <div class="headingText">
+                  Have something to say?
+                </div>
+                <div class="normalText">
+                  If you have any feedback or suggestions about the app or service, please let us know!
+                </div>
 
-              <div class="headingText">
-                Have something to say?
+                <form>
+                  <fieldset class="feedback">
+                    <input type="text" placeholder="Your feedback">
+                  </fieldset>
+                  <fieldset class="send-feedback">
+                    <input class="btn" type="button" name="submit" value="SUBMIT" onclick='receiveFeedback(this)';>
+                  </fieldset>
+                </form>
               </div>
-              <div class="normalText">
-                If you have any feedback or suggestions about the app or service, please let us know!
+
+              <div id="afterSubmit">
+                <hr class="topThanksForFeedback"></hr>
+                <div class="receivedFeedbackText">
+                  Feedback Received
+                  <div class="normalText">
+                    Thanks.
+                  </div>
+                </div>
+                <div class="checkmark">
+                  &#10003;
+                </div>
+                <hr class="bottomThanksForFeedback"></hr>
               </div>
-
-              <form>
-                <fieldset class="feedback">
-                  <input type="text" placeholder="Your feedback">
-                </fieldset>
-                <fieldset class="send-feedback">
-                  <input class="btn" type="submit" name="submit" value="SUBMIT" onclick=javascript:location.href="MainPage.html">
-                </fieldset>
-              </form>
-
-
-
 
               <div id="androidBottomBar">
               </div>
