@@ -43,7 +43,7 @@ function showInfo() {
     document.getElementsByClassName("infoBar")[0].style.position="relative";
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="85px";
-    document.getElementsByClassName("infoBar")[0].style.marginTop="307px";
+    document.getElementsByClassName("infoBar")[0].style.marginTop="327px";
     //document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
     document.getElementsByClassName("infoBar")[0].style.backgroundImage="url('images/infobar.jpg')";
     document.getElementsByClassName("infoBar")[0].style.backgroundSize="317px 80px";
