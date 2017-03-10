@@ -28,7 +28,7 @@
             </div>
 
             <!--Put everything here, This is the contents within the screen-->
-            <div class="screen">
+            <div class="screen"  onclick="clearAll()">
                 <div id="androidBar">
                     <div id=statusBarIcons>
 
@@ -52,6 +52,17 @@
                             Favourites
                         </p>
                     </div>
+                    
+        
+                    <button onclick="myFunction()" class="dropbtn">&#8942;</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="feedbackPage.html">Send Feedback</a>
+                        <a href="helpPage.html">Help</a>
+                        <a href="settingsPage.html">Settings</a>
+                    </div>
+                    
+                    <button class="search" onclick=javascript:location.href="helpPage.html"><i class="material-icons">search</i></button>
+                    
                 </div>
 
                 <!-- Able to close the infobar by clicking on it -->
@@ -61,6 +72,15 @@
                     </div>
                 </div>
 
+
+				<div class="bottomBar">
+					<div id="backButton">
+						<img src="images/backButton.png" onclick="clearAll()"></img>
+					</div>
+					<div id="nonfunctionalButtons">
+						<img src="images/buttonBarHalf.png"></img>
+					</div>
+				</div>
 
             </div>
 

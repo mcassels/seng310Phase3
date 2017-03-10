@@ -66,9 +66,6 @@ body {
    opacity: .75;
 }
 
-
-
-
 button.OK {
    margin-right: auto;
    margin-left: auto;
@@ -98,8 +95,6 @@ button.invisible {
  * ANDROID CSS
  *
  */
-
-
 /*****************************************
  ***********  Android CSS  ***************
  ****************************************/
@@ -124,9 +119,6 @@ button.invisible {
     margin-top: 22%;
     margin-left: 35%;
 }
-
-
-
 
 #androidBar {
     width: 317px;
@@ -195,7 +187,60 @@ button.invisible {
     /*font:18px arial, sans-serif;*/
 }
 
+button.search{
+    position:absolute;
+    margin-top:  -80px;
+    margin-left: 235px;
+    padding: 5px;
+    font:16px arial, sans-serif;
+    background: solid;
+    background-color: #45a162;
+    border:none;
+    color:white;
+    z-index: 1;
+}
 
+button.dropbtn {
+    position:absolute;
+    margin-top:  -82px;
+    margin-left: 270px;
+    background: solid;
+    background-color: #45a162;
+    font:24px arial, sans-serif;
+    border:none;
+    padding: 5px;
+    color:white;
+    z-index: 3;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top:  -85px;
+    margin-left: 145px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font:16px arial, sans-serif;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 #favouritesLabel {
     position:relative;
@@ -222,6 +267,21 @@ button.invisible {
     z-index:2;
 
 }
+
+.bottomBar {
+	position:absolute;
+	top: 510px;
+	z-index: 11;
+}
+
+#nonfunctionalButtons {
+	position:absolute;
+	float:right;
+	margin-top: -57px;
+	left:96px;
+}
+
+
 .hide {
   height: 0;
 }
