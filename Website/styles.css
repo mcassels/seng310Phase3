@@ -222,6 +222,21 @@ button.invisible {
     z-index:2;
 
 }
+
+.bottomBar {
+	position:absolute;
+	top: 510px;
+	z-index: 11;
+}
+
+#nonfunctionalButtons {
+	position:absolute;
+	float:right;
+	margin-top: -57px;
+	left:96px;
+}
+
+
 .hide {
   height: 0;
 }
