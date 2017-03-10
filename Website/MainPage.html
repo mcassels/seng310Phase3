@@ -30,22 +30,28 @@
             <!--Put everything here, This is the contents within the screen-->
             <div class="screen">
                 <div id="androidBar">
+                    <div id=statusBarIcons>
 
+                        <img src="images/cellSignal.png"></img>
+                        <img src="images/wifiSignal.png"></img>
+                        <p id="Time">
+                            <script>time();</script>
+                        </p>
+                    </div>
                 </div>
-                <p id="Time">
-                    <script>time();</script>
-                </p>
 
                 <div class="crowdz"
-                <p id="logo">
-                    Crowdz
-                </p>
-                <p id="mapLabel">
-                    Map
-                </p>
-                <p id="favouritesLabel">
-                    Favourites
-                </p>
+                    <p id="logo">
+                        Crowdz
+                    </p>
+                    <div id="mapAndFav">
+                        <p id="mapLabel">
+                            Map
+                        </p>
+                        <p id="favouritesLabel">
+                            Favourites
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Able to close the infobar by clicking on it -->
