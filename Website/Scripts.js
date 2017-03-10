@@ -24,8 +24,20 @@ function padDigits(number, digits) {
 
 function clearAll() {
 	removeInfo();
+	removeMoreInfo();
 }
 
+function showMoreInfo() {
+
+	document.getElementsByClassName("moreInfo")[0].style.position="relative";
+	document.getElementsByClassName("moreInfo")[0].style.width="317px"; /* -20 from padding of logo */
+	document.getElementsByClassName("moreInfo")[0].style.height="408px";
+	document.getElementsByClassName("moreInfo")[0].style.marginTop="0px";
+	//document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
+	document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreInfo.png')";
+	document.getElementsByClassName("moreInfo")[0].style.backgroundSize="317px 408px";
+	document.getElementsByClassName("moreInfo")[0].style.zIndex="1";
+}
 function showInfo() {
 
     document.getElementsByClassName("infoBar")[0].style.position="relative";
@@ -44,4 +56,11 @@ function removeInfo() {
     document.getElementsByClassName("infoBar")[0].style.height="";
     document.getElementsByClassName("infoBar")[0].style.marginTop="";
     document.getElementsByClassName("infoBar")[0].style.backgroundColor="";
+}
+function removeMoreInfo() {
+    document.getElementsByClassName("moreInfo")[0].style.position="";
+    document.getElementsByClassName("moreInfo")[0].style.width=""; /* -20 from padding of logo */
+    document.getElementsByClassName("moreInfo")[0].style.height="";
+    document.getElementsByClassName("moreInfo")[0].style.marginTop="";
+    document.getElementsByClassName("moreInfo")[0].style.backgroundColor="";
 }

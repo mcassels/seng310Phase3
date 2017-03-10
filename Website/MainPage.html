@@ -28,7 +28,7 @@
             </div>
 
             <!--Put everything here, This is the contents within the screen-->
-            <div class="screen"  onclick="clearAll()">
+            <div class="screen"  onclick="removeInfo()">
                 <div id="androidBar">
                     <div id=statusBarIcons>
 
@@ -54,12 +54,17 @@
                     </div>
                 </div>
 
-                <!-- Able to close the infobar by clicking on it -->
-                <div class="infoBar"  onclick="removeInfo()">
-                    <div id="infobar-background">
 
+				<div class="moreInfo">
+
+				</div>
+
+                <!-- Able to close the infobar by clicking on it -->
+                <div class="infoBar"  onclick="showMoreInfo()">
+                    <div id="infobar-background">
                     </div>
                 </div>
+
 
 
 				<div class="bottomBar">
