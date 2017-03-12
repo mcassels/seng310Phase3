@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="morganStyles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="Scripts.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+    </head>
+    <script type="text/javascript">
+
+    function getridof(button) {
+       button.style.display = "none";
+    }
+    </script>
+
+    <body class="croudzBackground">
+
+        <!-- This is a top bar of the website, NOT THE ANDROID-->
+        <div class="topbar">
+            <div class="button" id="drop">
+                <div class="buttonText">
+                    Drop
+                </div>
+            </div>
+        </div>
+
+        <!--The android part starts here, the mid class is just for centering
+          objects around the middle of the page-->
+        <div class="mid">
+            <div class="phone" background="images/phone.jpg">
+            </div>
+
+            <!--Put everything here, This is the contents within the screen-->
+            <div class="blankScreen"  onclick="removeInfo()">
+                <div id="androidBar">
+                    <div id=statusBarIcons>
+
+                        <img src="images/cellSignal.png"></img>
+                        <img src="images/wifiSignal.png"></img>
+                        <p id="Time">
+                            <script>time();</script>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="crowdz"
+                    <p id="logo">
+                        Crowdz
+                    </p>
+                    <div id="mapAndFav">
+                        <p id="mapLabel">
+                            Map
+                        </p>
+                        <div id="underlineWhite"></div>
+                        <div id="underlineGrey"></div>
+                        <p id="favouritesLabel">
+                            Bookmarks
+                        </p>
+                    </div>
+
+
+                    <button onclick="myFunction()" class="dropbtn">&#8942;</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="feedbackPage.html">Send Feedback</a>
+                        <a href="helpPage.html">Help</a>
+                        <a href="settingsPage.html">Settings</a>
+                    </div>
+
+                    <button class="search" onclick=javascript:location.href="helpPage.html"><i class="material-icons">search</i></button>
+
+                </div>
+                <button class="invisible" onclick='getridof(this)'>
+                  <div class="restaurantDescription">
+                    <div class="restaurantHeadingText">
+                      Grad House Restaurant
+                    </div>
+                    <div class="normalText"><span style="color: #30c96e">
+                      15-20 People | Not busy | 0.3 Km</span>
+                      Restaurant - 3800 Finnerty Rd, UVIC,
+                      Halpern Centre for Graduate Students
+                      Open until 8:30 PM
+                    </div>
+                  </div>
+                  <div class="restaurantImage">
+                  </div>
+                </button>
+                <span style="margin-top: 20">
+                  <button class="invisible">
+                    <div class="restaurantDescription">
+                      <div class="restaurantHeadingText">
+                        Mutsuki-An
+                      </div>
+                      <div class="normalText">
+                        N/A | 0.9 Km
+                        <br />
+                        Japanese - 2560A Sinclair Rd
+                        <br />
+                        <span style="color: #ff0000">Closed</span> Reopens at 4:30 PM
+                      </div>
+                    </div>
+                    <div class="restaurantImage" style="background-image: url(images/musuki.png); margin-top: 10px">
+                    </div>
+                  </button>
+               </span>
+                <button class="invisible">
+                  <div class="restaurantDescription">
+                    <div class="restaurantHeadingText">
+                      Original Joe's
+                    </div>
+                    <div class="normalText"><span style="color: #ff0000">
+                      45-60 People | Very busy | 1.6 Km</span>
+                      <br />
+                      Restaurant - 1654 McKenzie Avenue
+                      <br />
+                      Open until 12:00 AM
+                    </div>
+                  </div>
+                  <div class="restaurantImage" style="background-image: url(images/originaljoes.png); margin-top:-70px;">
+                  </div>
+                </button>
+
+
+
+        <div id="androidBottomBar">
+        </div>
+
+    </body>
+
+</html>
