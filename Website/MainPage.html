@@ -19,18 +19,19 @@
             </div>
         </div>
 
-            <div id="testButtonOpen">
-                <img src="images/test.png" width="35" height="35" onclick="showInfo()">
 
-            </div>
+
+
         <!--The android part starts here, the mid class is just for centering
           objects around the middle of the page-->
         <div class="mid">
             <div class="phone" background="images/phone.jpg">
             </div>
 
+
+
             <!--Put everything here, This is the contents within the screen-->
-            <div class="screen"  onclick="removeInfo()">
+            <div class="screen"> <!onclick="removeInfo()"> <!This script is causing bugs>
                 <div id="androidBar">
                     <div id=statusBarIcons>
 
@@ -54,10 +55,14 @@
 						<div id="underlineWhite"></div>
 						<div id="underlineGrey"></div>
 
-                        <p id="favouritesLabel">
-                            Bookmarks
-                        </p>
+						<button id="bookmarksClick" onclick=location.href="bookmarksPage.html" >
+							<div id="bookmarks">
+								Bookmarks
+							</div>
+						</button>
+
                     </div>
+
 
 
                     <button onclick="myFunction()" class="dropbtn">&#8942;</button>
@@ -72,8 +77,10 @@
                 </div>
 
 
-				<div class="moreInfo">
 
+
+
+				<div class="moreInfo">
 				</div>
 
                 <!-- Able to close the infobar by clicking on it -->
@@ -82,6 +89,13 @@
                     </div>
                 </div>
 
+
+				<div id="mapIcons">
+					<div id="streetCart">
+						<img src="images/restaurantRed.png" onclick="showInfo()"></img>
+					</div>
+
+				</div>
 
 
 				<div class="bottomBar">
