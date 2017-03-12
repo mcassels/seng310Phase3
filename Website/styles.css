@@ -174,7 +174,24 @@ button.invisible {
     position:relative;
     padding-top: 20px;
     /*font:18px arial, sans-serif;*/
+}
 
+
+#bookmarks {
+	font-size: 16px;
+}
+
+
+#bookmarksClick{
+	margin-top: -55px;
+	padding-right: 25px;
+	height: 50px;
+	width: 100px;
+	float: right;
+	background: transparent;
+	border: none !important;
+
+	color:white;
 }
 
 #mapAndFav {
@@ -263,22 +280,21 @@ button.dropbtn {
 .show {display:block;}
 
 #favouritesLabel {
-    position:relative;
-    float:right;
-    margin-top: -33px;
-	padding-right: 25px;
+
 
     /*margin-left: 200px;*/
 
     /*font:18px arial, sans-serif;*/
 }
 
-#testButtonOpen {
-    position:absolute;
-    margin-top: 550px;
-    margin-left: 850px;
-    z-index:2;
+#mapIcons {
+    position:relative;
 
+    z-index:2;
+}
+#streetCart{
+	margin-top: 375px;
+	margin-left: 167px;
 }
 
 #testButtonClose {
