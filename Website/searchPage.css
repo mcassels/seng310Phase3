@@ -1,0 +1,48 @@
+input[type=text]{
+    width: 80%;
+    padding: 18px 5px;
+    margin: 3px 44px;
+    border: none;
+    font-size:24px;
+}
+
+button.back {
+   
+    background: solid;
+    background-color: white;
+    border: -5px;
+    vertical-align: center;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+    line-height: 60px;
+    margin-top: -68px;
+}
+
+button.search{
+    
+    margin-top: 393px;
+    margin-left: 275px;
+    background: transparent;
+    color: white;
+    z-index = 1;
+}
+
+.keys {
+    border:none;
+    width: 100%;
+    height: 220px;
+    margin-top: 255px;
+}
+.results {
+    positio: absolute;
+    display:none;
+    width: 100%;
+    height: 220px;
+    margin-top: -480px;
+    
+    
+}
+
+

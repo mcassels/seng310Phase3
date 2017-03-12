@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="searchPage.css">
+        <script type="text/javascript" src="Scripts.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+	</head>
+
+<body class="croudzBackground">
+        
+    <div class="mid">
+        <div class="phone" background="images/phone.jpg"></div>
+        
+            <!--Put everything here, This is the contents within the screen-->
+            <div class="screen"  onclick="removeInfo()">
+                
+                <div id="androidBar">
+                    <div id=statusBarIcons>
+                        <img src="images/cellSignal.png"></img>
+                        <img src="images/wifiSignal.png"></img>
+                        <p id="Time">
+                            <script>time();</script>
+                        </p>
+                    </div>
+                </div>
+                
+                <form>
+                    <input type="text" id="fname" name="fname">
+                </form>
+            
+                <button class="back"  onclick=javascript:location.href="MainPage.html">
+                    <div class="backArrow">&#8592;</div>
+                </button>
+             
+                <button class="search" onclick="document.getElementById('results').style.display = 'block'"><i class="material-icons">search</i>
+                </button>
+                
+                <img id = "keys" class = "keys" src="images/keyboard.png">
+                <img id="results" class="results"src="images/searchResults.png"/>
+            
+                <!--end of screen-->
+                
+                </div>
+            </div>
+        </div>
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
