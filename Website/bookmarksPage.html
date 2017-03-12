@@ -11,8 +11,15 @@
     </head>
     <script type="text/javascript">
 
-    function getridof(button) {
-       button.style.display = "none";
+    function garbage1() {
+      document.getElementById('garbageCan').style.display = 'block';
+    }
+    function garbage2() {
+      document.getElementById('garbageCan').style.display = 'block';
+      d
+    }
+    function garbage3() {
+      document.getElementById('garbageCan').style.display = 'block';
     }
     </script>
 
@@ -54,8 +61,9 @@
                         <p id="mapLabel">
                             Map
                         </p>
-                        <div id="underlineWhite"></div>
-                        <div id="underlineGrey"></div>
+                        <div id="underlineLight"></div>
+                        <div id="underlineDark"></div>
+
                         <p id="favouritesLabel">
                             Bookmarks
                         </p>
@@ -72,7 +80,7 @@
                     <button class="search" onclick=javascript:location.href="helpPage.html"><i class="material-icons">search</i></button>
 
                 </div>
-                <button class="invisible" onclick='getridof(this)'>
+                <button class="invisible" onclick='garbage1(this)'>
                   <div class="restaurantDescription">
                     <div class="restaurantHeadingText">
                       Grad House Restaurant
@@ -88,7 +96,7 @@
                   </div>
                 </button>
                 <span style="margin-top: 20">
-                  <button class="invisible">
+                  <button class="invisible" onclick='garbage2(this)'>
                     <div class="restaurantDescription">
                       <div class="restaurantHeadingText">
                         Mutsuki-An
@@ -101,11 +109,13 @@
                         <span style="color: #ff0000">Closed</span> Reopens at 4:30 PM
                       </div>
                     </div>
+                    <div id="garbageCan">
+                    </div>
                     <div class="restaurantImage" style="background-image: url(images/musuki.png); margin-top: 10px">
                     </div>
                   </button>
                </span>
-                <button class="invisible">
+                <button class="invisible" onclick='garbage3(this)'>
                   <div class="restaurantDescription">
                     <div class="restaurantHeadingText">
                       Original Joe's
