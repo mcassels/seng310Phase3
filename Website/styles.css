@@ -7,6 +7,24 @@ body {
  ***********  WEBSITE CSS  ***************
  ****************************************/
 
+#note1{
+	color: black;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	position:absolute;
+	z-index: 5;
+	top: 680px;
+	left: 240px;
+}
+
+#note2 {
+	color: black;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	position:absolute;
+	z-index: 5;
+	top: 240px;
+	left: 840px;
+}
+
 .box:hover{
     background-color: Black;
 }
@@ -364,6 +382,11 @@ button.dropbtn {
 	position:absolute;
 	margin-top: 165px;
 	margin-left: 186px;
+}
+#Cafe2 {
+	position:absolute;
+	margin-top: 90px;
+	margin-left: 53px;
 }
 
 #testButtonClose {
