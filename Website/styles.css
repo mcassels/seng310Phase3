@@ -346,18 +346,24 @@ button.dropbtn {
 }
 
 #mapIcons {
-    position:relative;
 
-    z-index:2;
+    z-index:3;
 }
 #streetCart{
-	margin-top: 375px;
-	margin-left: 167px;
+	position: absolute;
+	left:170px;
+	top: 480px;
+
 }
 #Churchill{
-
-	margin-top: -406px;
+	position:absolute;
+	margin-top: 10px;
 	margin-left: 236px;
+}
+#Cafe{
+	position:absolute;
+	margin-top: 165px;
+	margin-left: 186px;
 }
 
 #testButtonClose {
