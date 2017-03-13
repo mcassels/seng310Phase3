@@ -192,6 +192,25 @@ button.invisible {
 	color:white;
 }
 
+#maps {
+	font-size: 16px;
+}
+
+#plsworkmaps{
+	margin-top: 0px;
+	float: left;
+	margin-right:15px;
+}
+
+#mapsClick{
+	padding-right: 25px;
+	height: 17px;
+	width: 100px;
+	background: transparent;
+	border: none !important;
+	color:white;
+}
+
 #mapAndFav {
     margin-top: 5px;
 	padding-left: 40px;
@@ -235,6 +254,19 @@ button.search{
     z-index: 1;
 }
 
+button.search2{
+    position:absolute;
+    margin-top:  -56px;
+    margin-left: 80px;
+    padding: 5px;
+    font:16px arial, sans-serif;
+    background: solid;
+    background-color: #45a162;
+    border:none;
+    color:white;
+    z-index: 1;
+}
+
 button.dropbtn {
     position:absolute;
     margin-top:  -82px;
@@ -258,7 +290,7 @@ button.dropbtn {
     display: none;
     position: absolute;
     margin-top:  -85px;
-    margin-left: 145px;
+    margin-left: 460px;
     background-color: #f9f9f9;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -277,11 +309,19 @@ button.dropbtn {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-#favouritesLabel {
+#dropDown {
+	left: -155px;
+	top: 24px;
+	margin-top:10px;
+	position:relative;
+}
 
+
+
+#favouritesLabel {
 	position:relative;
 	float:right;
-	margin-top: -33px;
+	margin-top: -18px;
 	padding-right: 25px;
     /*margin-left: 200px;*/
 
