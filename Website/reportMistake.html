@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="morganStyles.css">
+        <script type="text/javascript" src="Scripts.js"></script>
+    </head>
+
+    <body class="croudzBackground">
+      <script type="text/javascript">
+
+      function receiveFeedback(button) {
+         button.style.display = "none";
+         beforeSubmit.style.display = "none";
+         afterSubmit.style.display = "block"
+      }
+      </script>
+      <div class="mid">
+          <div class="phone" background="phone.jpg">
+
+          </div>
+          <div class="blankScreen">
+            <div id="androidBar">
+                <div id=statusBarIcons>
+
+                    <img src="images/cellSignal.png"></img>
+                    <img src="images/wifiSignal.png"></img>
+                    <p id="Time">
+                        <script>time();</script>
+                    </p>
+                </div>
+            </div>
+              <div class="headerBar">
+                <button class="back" onclick=javascript:location.href="MainPage.html">
+                  <div class="backArrow">
+                    &#8592;
+                  </div>
+                 </button>
+                <div class="headerBarText">
+                  Report Mistake
+                </div>
+
+              </div>
+              <div id="mistakeMap">
+              </div>
+              <div id="beforeSubmit">
+                <div class="headingText">
+                  Inaccurate Information
+                </div>
+                <div class="normalText">
+                  We try our best to have up-to-date information, but please let us know how we can improve.
+                </div>
+
+                <form>
+                  <fieldset class="feedback">
+                    <input type="text" placeholder="Describe the problem (optional)">
+                  </fieldset>
+                  <fieldset class="send-feedback">
+                    <input class="btn" type="button" name="submit" value="SUBMIT" onclick='receiveFeedback(this)';>
+                  </fieldset>
+                </form>
+              </div>
+
+              <div id="afterSubmit">
+                <hr class="topThanksForFeedback"></hr>
+                <div class="receivedFeedbackText">
+                  Report Received
+                  <div class="normalText">
+                    Thanks.
+                  </div>
+                </div>
+                <div class="checkmark">
+                  &#10003;
+                </div>
+                <hr class="bottomThanksForFeedback"></hr>
+              </div>
+
+              <div id="androidBottomBar">
+              </div>
+
+          </div>
+
+      </div>
+    </body>
+
+    </html>

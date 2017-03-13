@@ -205,8 +205,13 @@ button.invisible {
   right: 0;
   display: none;
   z-index: 2;
-  color: white;
-  font-size: 22px;
+}
+#mistakeMap{
+  background-image: url("images/background_map.png");
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 150px;
 }
 .terms{
   color: grey;
@@ -310,7 +315,7 @@ hr.bottomThanksForFeedback {
 	background-color: black;
 	opacity: .4;
 	position:relative;
-  top: 30px;
+  top: -5px;
   left:-60px;
 
 }
@@ -319,7 +324,7 @@ hr.bottomThanksForFeedback {
 	height:2px;
 	background-color: white;
 	position:relative;
-  top: 10px;
+  top: -5px;
   left:20px;
   float: right;
 
