@@ -291,6 +291,7 @@ hr.bottomThanksForFeedback {
     height: 50px;
     position: absolute;
     bottom: 0;
+	margin-bottom: -3px;
     vertical-align: bottom;
     background-position: center;
     background-image: url(images/android_bottom_bar.png);
