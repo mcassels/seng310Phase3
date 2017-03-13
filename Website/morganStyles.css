@@ -310,7 +310,7 @@ hr.bottomThanksForFeedback {
 	background-color: black;
 	opacity: .4;
 	position:relative;
-  top: -5px;
+  top: 30px;
   left:-60px;
 
 }
@@ -319,7 +319,7 @@ hr.bottomThanksForFeedback {
 	height:2px;
 	background-color: white;
 	position:relative;
-  top: -5px;
+  top: 10px;
   left:20px;
   float: right;
 
