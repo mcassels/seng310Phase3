@@ -290,7 +290,17 @@ button.dropbtn {
     display: none;
     position: absolute;
     margin-top:  -85px;
-    margin-left: 460px;
+    margin-left: 145px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    margin-top:  -85px;
+    margin-left: 300px;
     background-color: #f9f9f9;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -299,6 +309,13 @@ button.dropbtn {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+    font:16px arial, sans-serif;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content2 a {
     font:16px arial, sans-serif;
     color: black;
     padding: 10px 10px;
