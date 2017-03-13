@@ -13,13 +13,22 @@
 
     function garbage1() {
       document.getElementById('garbageCan').style.display = 'block';
+      document.getElementById('garbageCan').style.bottom = '350px';
+      document.getElementById('removeBar').style.bottom = '350px';
     }
     function garbage2() {
       document.getElementById('garbageCan').style.display = 'block';
-      
+      document.getElementById('garbageCan').style.bottom = '250px';
+      document.getElementById('removeBar').style.bottom = '250px';
+
     }
     function garbage3() {
       document.getElementById('garbageCan').style.display = 'block';
+      document.getElementById('garbageCan').style.bottom = '150px';
+      document.getElementById('removeBar').style.bottom = '150px';
+    }
+    function removed1() {
+      document.getElementById('removeBar').style.display = 'block';
     }
     </script>
 
@@ -61,6 +70,7 @@
                         <p id="mapLabel">
                             Map
                         </p>
+
                         <div id="underlineLight"></div>
                         <div id="underlineDark"></div>
 
@@ -94,6 +104,8 @@
                   </div>
                   <div class="restaurantImage">
                   </div>
+                  <button id="garbageCan" onclick="removed1(this)"></button>
+                  <div id="removeBar"><span style="vertical-align: center; margin-left: 8px;"><div class="headerBarText">Removed</div></span></div>
                 </button>
                 <span style="margin-top: 20">
                   <button class="invisible" onclick='garbage2(this)'>
@@ -136,7 +148,6 @@
 
         <div id="androidBottomBar">
         </div>
-
     </body>
 
 </html>

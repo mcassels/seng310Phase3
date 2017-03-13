@@ -195,8 +195,18 @@ button.invisible {
   background-image: url(images/garbageCan.png);
   position: absolute;
   left: 217px;
-  bottom: 350px;
   display: none;
+}
+#removeBar{
+  background-color: #30c96e;
+  width: 317px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  display: none;
+  z-index: 2;
+  color: white;
+  font-size: 22px;
 }
 .terms{
   color: grey;
