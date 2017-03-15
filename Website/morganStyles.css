@@ -316,8 +316,9 @@ hr.bottomThanksForFeedback {
 	background-color: black;
 	opacity: .4;
 	position:relative;
-	top: 30px;
-	left:-60px;
+	top: 10px;
+  left:20px;
+  float: right;
 
 }
 #underlineLight {
@@ -326,8 +327,8 @@ hr.bottomThanksForFeedback {
 	background-color: white;
 	position:relative;
 	top: 10px;
-	left:20px;
-	float: right;
+	left:-60px;
+	float: left;
 
 }
 
