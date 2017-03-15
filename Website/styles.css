@@ -208,19 +208,23 @@ button.invisible {
 	font-size: 16px;
 }
 #bookmarksClick{
-	margin-top: -49px;
+	margin-top: -35px;
 	margin-right:15px;
 	padding-right: 25px;
-	height: 50px;
-	width: 100px;
+  
+	height: 25px;
+	width: 120px;
 	float: right;
 	background: transparent;
 	border: none !important;
 	color:white;
+  cursor: pointer;
 }
 
 #maps {
 	font-size: 16px;
+  top: 10px;
+
 }
 
 #plsworkmaps{
@@ -236,37 +240,42 @@ button.invisible {
 	background: transparent;
 	border: none !important;
 	color:white;
+  position: relative;
 }
 
 #mapAndFav {
-    margin-top: 5px;
+  margin-top: 5px;
 	padding-left: 40px;
-    position:relative;
+  position:relative;
 }
 
 #mapLabel {
     position:relative;
+    top: 5px;
     /*font:18px arial, sans-serif;*/
 }
+
 #underlineGrey {
-	width: 158px;
-	height:2px;
-	background-color: black;
-	opacity: .4;
-	position:relative;
-	top: -7px;
-	left:20px;
-	float:right;
+  width: 158px;
+  height:2px;
+  background-color: black;
+  opacity: .4;
+  position:relative;
+  top: -5px;
+  left: -60px;
 
 }
 #underlineWhite {
-	width: 159px;
-	height:2px;
-	background-color: white;
-	position:relative;
-	top: -5px;
-	left:-60px;
+  width: 159px;
+  height:2px;
+  background-color: white;
+  position:relative;
+  top: -7px;
+  left: 20px;
+  float: right;
+
 }
+
 
 button.search{
     position:absolute;
@@ -279,12 +288,15 @@ button.search{
     border:none;
     color:white;
     z-index: 1;
+    float: right;
+
+
 }
 
 button.search2{
     position:absolute;
-    margin-top:  -56px;
-    margin-left: 80px;
+    margin-top:  -80px;
+    margin-left: 235px;
     padding: 5px;
     font:16px arial, sans-serif;
     background: solid;
@@ -292,11 +304,12 @@ button.search2{
     border:none;
     color:white;
     z-index: 1;
+    float: right;
 }
 
 button.dropbtn {
     position:absolute;
-    margin-top:  -82px;
+    margin-top:  -80px;
     margin-left: 270px;
     background: solid;
     background-color: #45a162;
@@ -343,6 +356,7 @@ button.dropbtn {
     display: block;
 }
 .dropdown-content2 a {
+  /*padding-top: 5px;*/
     font:16px arial, sans-serif;
     color: black;
     padding: 10px 10px;
@@ -355,7 +369,7 @@ button.dropbtn {
 
 #dropDown {
 	left: -155px;
-	top: 24px;
+	top: 39px;
 	margin-top:10px;
 	position:relative;
 }
@@ -367,6 +381,7 @@ button.dropbtn {
 	float:right;
 	margin-top: -18px;
 	padding-right: 25px;
+  font-size: 16px;
     /*margin-left: 200px;*/
 
     /*font:18px arial, sans-serif;*/
