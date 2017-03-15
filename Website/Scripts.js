@@ -1,4 +1,31 @@
 var x = 0;
+var starBar = 0;
+var starMore = 0;
+
+
+function drawStarBar() {
+	document.getElementsByClassName("star")[0].style.position="absolute";
+	document.getElementsByClassName("star")[0].style.height="40px";
+	document.getElementsByClassName("star")[0].style.width="40px";
+	document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starGrey.png')"
+	document.getElementsByClassName("star")[0].style.backgroundSize="40px 40px";
+	document.getElementsByClassName("star")[0].style.top="460px";
+	document.getElementsByClassName("star")[0].style.left="280px";
+	document.getElementsByClassName("star")[0].style.zIndex="10";
+}
+
+function drawStarMore() {
+
+}
+
+function changeStarBar() {
+
+}
+
+function changeStarMore() {
+
+}
+
 
 function time() {
     var d = new Date;
@@ -36,6 +63,7 @@ function createMistake() {
 	document.getElementsByClassName("reportMistake")[0].style.height="20px";
 	document.getElementsByClassName("reportMistake")[0].style.zIndex="5";
 	document.getElementsByClassName("reportMistake")[0].style.backgroundImage="url('images/reportmistake.png')";
+	document.getElementsByClassName("reportMistake")[0].style.backgroundColor="black";
 	document.getElementsByClassName("reportMistake")[0].style.backgroundSize="100px 20px";
 	document.getElementsByClassName("reportMistake")[0].style.top="470px";
 	document.getElementsByClassName("reportMistake")[0].style.left="200px";
@@ -53,6 +81,7 @@ function removeMistake() {
 }
 
 function showMoreInfo() {
+	clearAll();
 
 	document.getElementsByClassName("moreInfo")[0].style.position="relative";
 	document.getElementsByClassName("moreInfo")[0].style.width="317px"; /* -20 from padding of logo */
@@ -116,6 +145,7 @@ function showBarInfo() {
 
 function showStoreInfo() {
 	x = 3;
+	drawStarBar();
 	document.getElementsByClassName("infoBar")[0].style.position="relative";
 	document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
 	document.getElementsByClassName("infoBar")[0].style.height="85px";
