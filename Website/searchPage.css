@@ -6,8 +6,25 @@ input[type=text]{
     font-size:24px;
 }
 
+#noteSearchBar{
+ color: black;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+ position:absolute;
+ z-index: 5;
+ top: 30%;
+ right: 19%;
+}
+#noteSearchButton{
+ color: black;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+ position:absolute;
+ z-index: 5;
+ top: 93%;
+ right: 23%;
+}
+
 button.back {
-   
+
     background: solid;
     background-color: white;
     border: -5px;
@@ -21,7 +38,7 @@ button.back {
 }
 
 button.search{
-    
+
     margin-top: 393px;
     margin-left: 275px;
     background: transparent;
@@ -41,8 +58,6 @@ button.search{
     width: 100%;
     height: 220px;
     margin-top: -480px;
-    
-    
+
+
 }
-
-

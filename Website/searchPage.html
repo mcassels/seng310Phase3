@@ -9,13 +9,15 @@
 	</head>
 
 <body class="croudzBackground">
-        
+	      <div id=noteSearchBar>&#8592; Try searching for "restaurants"</div>
+				<div id=noteSearchButton>&#8592; Click the search button</div>
+
     <div class="mid">
         <div class="phone" background="images/phone.jpg"></div>
-        
+
             <!--Put everything here, This is the contents within the screen-->
             <div class="screen"  onclick="removeInfo()">
-                
+
                 <div id="androidBar">
                     <div id=statusBarIcons>
                         <img src="images/cellSignal.png"></img>
@@ -25,23 +27,23 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <form>
                     <input type="text" id="fname" name="fname">
                 </form>
-            
+
                 <button class="back"  onclick=javascript:location.href="MainPage.html">
                     <div class="backArrow">&#8592;</div>
                 </button>
-             
+
                 <button class="search" onclick="document.getElementById('results').style.display = 'block'"><i class="material-icons">search</i>
                 </button>
-                
+
                 <img id = "keys" class = "keys" src="images/keyboard.png">
                 <img id="results" class="results"src="images/searchResults.png"/>
-            
+
                 <!--end of screen-->
-                
+
                 </div>
             </div>
         </div>
@@ -53,20 +55,3 @@
 
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
