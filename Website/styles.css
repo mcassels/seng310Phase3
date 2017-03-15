@@ -25,6 +25,15 @@ body {
 	left: 65%;
 }
 
+#note3 {
+	color: black;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	position:absolute;
+	z-index: 5;
+	top: 5%;
+	left: 35%;
+}
+
 .box:hover{
     background-color: Black;
 }
@@ -387,6 +396,21 @@ button.dropbtn {
 	position:absolute;
 	margin-top: 90px;
 	margin-left: 53px;
+}
+#store1 {
+	position:absolute;
+	margin-top: 90px;
+	margin-left: 122px;
+}
+#store2 {
+	position:absolute;
+	margin-top: 190px;
+	margin-left: 53px;
+}
+#store3 {
+	position:absolute;
+	margin-top: 310px;
+	margin-left: 43px;
 }
 
 #testButtonClose {

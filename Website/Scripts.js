@@ -68,6 +68,8 @@ function showMoreInfo() {
 		document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreMurchies.png')";
 	} else if ( x== 2 ) {
 		document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreChurchill.png')";
+	} else if ( x == 3) {
+		document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreTobacco.png')";
 	}
 }
 
@@ -108,6 +110,18 @@ function showBarInfo() {
 	document.getElementsByClassName("infoBar")[0].style.marginTop="327px";
 	//document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
 	document.getElementsByClassName("infoBar")[0].style.backgroundImage="url('images/barChurchill.png')";
+	document.getElementsByClassName("infoBar")[0].style.backgroundSize="317px 80px";
+	document.getElementsByClassName("infoBar")[0].style.zIndex="4";
+}
+
+function showStoreInfo() {
+	x = 3;
+	document.getElementsByClassName("infoBar")[0].style.position="relative";
+	document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
+	document.getElementsByClassName("infoBar")[0].style.height="85px";
+	document.getElementsByClassName("infoBar")[0].style.marginTop="327px";
+	//document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
+	document.getElementsByClassName("infoBar")[0].style.backgroundImage="url('images/barTobacco.png')";
 	document.getElementsByClassName("infoBar")[0].style.backgroundSize="317px 80px";
 	document.getElementsByClassName("infoBar")[0].style.zIndex="4";
 }
