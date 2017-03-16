@@ -12,7 +12,7 @@ input[type=text]{
  position:absolute;
  z-index: 5;
  top: 30%;
- right: 19%;
+ margin-left: 63%;
 }
 #noteSearchButton{
  color: black;
@@ -20,7 +20,7 @@ input[type=text]{
  position:absolute;
  z-index: 5;
  top: 93%;
- right: 23%;
+ margin-left: 63%;
 }
 
 button.back {
