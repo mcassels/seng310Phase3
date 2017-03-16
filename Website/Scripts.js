@@ -1,30 +1,78 @@
 var x = 0;
-var starBar = 0;
-var starMore = 0;
+var star = 0;
+var starPosition = 0;
 
+
+function removeStars() {
+	document.getElementsByClassName("star")[0].style.position="";
+	document.getElementsByClassName("star")[0].style.height="";
+	document.getElementsByClassName("star")[0].style.width="";
+	document.getElementsByClassName("star")[0].style.backgroundImage=""
+	document.getElementsByClassName("star")[0].style.backgroundSize="";
+	document.getElementsByClassName("star")[0].style.top="";
+	document.getElementsByClassName("star")[0].style.left="";
+	document.getElementsByClassName("star")[0].style.zIndex="";
+	document.getElementsByClassName("star")[0].style.opacity="";
+}
 
 function drawStarBar() {
 	document.getElementsByClassName("star")[0].style.position="absolute";
-	document.getElementsByClassName("star")[0].style.height="40px";
-	document.getElementsByClassName("star")[0].style.width="40px";
-	document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starGrey.png')"
-	document.getElementsByClassName("star")[0].style.backgroundSize="40px 40px";
-	document.getElementsByClassName("star")[0].style.top="460px";
+	document.getElementsByClassName("star")[0].style.height="25px";
+	document.getElementsByClassName("star")[0].style.width="25px";
+
+	document.getElementsByClassName("star")[0].style.backgroundSize="25px 25px";
+	document.getElementsByClassName("star")[0].style.top="435px";
 	document.getElementsByClassName("star")[0].style.left="280px";
 	document.getElementsByClassName("star")[0].style.zIndex="10";
+	document.getElementsByClassName("star")[0].style.opacity=".8";
+	if(star == 0) {
+		document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starGrey.png')"
+	} else if (star == 1) {
+		document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starYellow.png')"
+	}
 }
 
 function drawStarMore() {
+	document.getElementsByClassName("star")[0].style.position="absolute";
+	document.getElementsByClassName("star")[0].style.height="25px";
+	document.getElementsByClassName("star")[0].style.width="25px";
 
+	document.getElementsByClassName("star")[0].style.backgroundSize="25px 25px";
+	document.getElementsByClassName("star")[0].style.top="105px";
+	document.getElementsByClassName("star")[0].style.left="283px";
+	document.getElementsByClassName("star")[0].style.zIndex="10";
+	document.getElementsByClassName("star")[0].style.opacity=".8";
+	if(star == 0) {
+		document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starGrey.png')"
+	} else if (star == 1) {
+		document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starYellow.png')"
+	}
 }
 
-function changeStarBar() {
-
+function starred() {
+	if (star == 0) {
+		star = 1;
+	} else {
+		star = 0;
+	}
+	removeStars();
+	if (starPosition == 0) {
+		drawStarBar();
+	} else {
+		drawStarMore();
+	}
 }
 
-function changeStarMore() {
-
+function starredMore() {
+	if (star == 0) {
+		star = 1;
+	} else {
+		star = 0;
+	}
+	removeStars();
+	drawStarMore();
 }
+
 
 
 function time() {
@@ -52,9 +100,11 @@ function padDigits(number, digits) {
 }
 
 function clearAll() {
+	starPosition = 0;
 	removeInfo();
 	removeMoreInfo();
 	removeMistake();
+	removeStars();
 }
 
 function createMistake() {
@@ -82,7 +132,8 @@ function removeMistake() {
 
 function showMoreInfo() {
 	clearAll();
-
+	drawStarMore();
+	starPosition = 1;
 	document.getElementsByClassName("moreInfo")[0].style.position="relative";
 	document.getElementsByClassName("moreInfo")[0].style.width="317px"; /* -20 from padding of logo */
 	document.getElementsByClassName("moreInfo")[0].style.height="408px";
@@ -109,6 +160,7 @@ function showMoreInfo() {
 */
 function showCartInfo() {
 	x = 0;
+	starPosition = 0;
     document.getElementsByClassName("infoBar")[0].style.position="relative";
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="85px";
@@ -121,6 +173,7 @@ function showCartInfo() {
 
 function showCafeInfo() {
 	x = 1;
+	starPosition = 0;
 	document.getElementsByClassName("infoBar")[0].style.position="relative";
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="85px";
@@ -133,6 +186,7 @@ function showCafeInfo() {
 
 function showBarInfo() {
 	x = 2;
+	starPosition = 0;
 	document.getElementsByClassName("infoBar")[0].style.position="relative";
 	document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
 	document.getElementsByClassName("infoBar")[0].style.height="85px";
@@ -145,6 +199,7 @@ function showBarInfo() {
 
 function showStoreInfo() {
 	x = 3;
+	starPosition = 0;
 	drawStarBar();
 	document.getElementsByClassName("infoBar")[0].style.position="relative";
 	document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
