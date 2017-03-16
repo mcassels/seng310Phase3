@@ -1,3 +1,5 @@
+// import jQuery from "jquery";
+// window.$ = window.jQuery = jQuery;
 var x = 0;
 var star = 0;
 var starPosition = 0;
@@ -142,6 +144,8 @@ function showMoreInfo() {
 	document.getElementsByClassName("moreInfo")[0].style.backgroundSize="317px 408px";
 	document.getElementsByClassName("moreInfo")[0].style.zIndex="1";
 	createMistake();
+	selectTime();
+
 	if (x==0) {
 		document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreCart.png')";
 	} else if ( x == 1 ){
@@ -151,6 +155,7 @@ function showMoreInfo() {
 	} else if ( x == 3) {
 		document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreTobacco.png')";
 	}
+
 }
 
 /*
@@ -158,6 +163,22 @@ function showMoreInfo() {
 	with variables.
 
 */
+function selectTime(){
+	document.getElementsByClassName("selectTime")[0].style.position="absolute";
+	document.getElementsByClassName("selectTime")[0].style.width="100px"; /* -20 from padding of logo */
+	document.getElementsByClassName("selectTime")[0].style.height="20px";
+	document.getElementsByClassName("selectTime")[0].style.zIndex="5";
+	document.getElementsByClassName("selectTime")[0].style.backgroundSize="100px 20px";
+	document.getElementsByClassName("selectTime")[0].style.top="450px";
+	document.getElementsByClassName("selectTime")[0].style.left="100px";
+	document.getElementsByClassName("selectTime")[0].style.text = "black"
+
+	document.getElementsByClassName("selectTime")[0].style.backgroundColor="#F2E2E2";
+	$(document.getElementsByClassName("selectTime")).timepicker();
+    // $(document.getElementsByClassName("selectTime")).on('changeTime', function() {
+    // $(document.getElementsByClassName("selectTime")).text($(this).val());
+    //                     });
+}
 function showCartInfo() {
 	x = 0;
 	starPosition = 0;
