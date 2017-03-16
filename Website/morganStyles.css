@@ -12,8 +12,21 @@ body {
  *  WEBSITE CSS
  *
  */
+
 .box:hover{
     background-color: Black;
+}
+#garricksHead{
+  z-index: 10;
+  margin-left: 74%;
+  position: absolute;
+  top: 18%;
+}
+#theChurchill{
+  z-index: 11;
+  margin-left: 79.5%;
+  position: absolute;
+  top: 36.5%;
 }
 
 .croudzBackground {
