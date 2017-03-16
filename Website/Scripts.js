@@ -79,7 +79,7 @@ function starredMore() {
 
 function time() {
     var d = new Date;
-    var hours = d.getUTCHours()-8;
+    var hours = d.getUTCHours();
     var minutes = d.getUTCMinutes();
     var ampm = "AM";
 
