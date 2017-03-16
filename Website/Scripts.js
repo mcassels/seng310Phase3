@@ -182,6 +182,7 @@ function selectTime(){
 function showCartInfo() {
 	x = 0;
 	starPosition = 0;
+	drawStarBar();
     document.getElementsByClassName("infoBar")[0].style.position="relative";
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="85px";
@@ -195,6 +196,7 @@ function showCartInfo() {
 function showCafeInfo() {
 	x = 1;
 	starPosition = 0;
+	drawStarBar();
 	document.getElementsByClassName("infoBar")[0].style.position="relative";
     document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
     document.getElementsByClassName("infoBar")[0].style.height="85px";
@@ -208,6 +210,7 @@ function showCafeInfo() {
 function showBarInfo() {
 	x = 2;
 	starPosition = 0;
+	drawStarBar();
 	document.getElementsByClassName("infoBar")[0].style.position="relative";
 	document.getElementsByClassName("infoBar")[0].style.width="317px"; /* -20 from padding of logo */
 	document.getElementsByClassName("infoBar")[0].style.height="85px";
