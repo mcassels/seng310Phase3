@@ -192,7 +192,7 @@ button.invisible {
         margin-top: 0px;
         background-color: #45a162;
         position:relative;
-        z-index: 3;
+        z-index: 10;
         padding-left: 20px;
         padding-right: 20px;
         font-family: -apple-system,
@@ -321,12 +321,13 @@ button.dropbtn {
     border:none;
     padding: 5px;
     color:white;
-    z-index: 3;
+    z-index: 6;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+	z-index: 15;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -338,7 +339,7 @@ button.dropbtn {
     background-color: #f9f9f9;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 4;
+    z-index: 15;
 }
 .dropdown-content2 {
     display: none;
@@ -348,7 +349,7 @@ button.dropbtn {
     background-color: #f9f9f9;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 4;
+	z-index: 15;
 }
 
 /* Links inside the dropdown */
@@ -358,6 +359,7 @@ button.dropbtn {
     padding: 10px 10px;
     text-decoration: none;
     display: block;
+	z-index: 15;
 }
 .dropdown-content2 a {
   /*padding-top: 5px;*/
@@ -366,6 +368,7 @@ button.dropbtn {
     padding: 10px 10px;
     text-decoration: none;
     display: block;
+	z-index: 15;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -376,6 +379,7 @@ button.dropbtn {
 	top: 39px;
 	margin-top:10px;
 	position:relative;
+	z-index: 15;
 }
 
 

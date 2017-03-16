@@ -42,7 +42,7 @@ function drawStarMore() {
 	document.getElementsByClassName("star")[0].style.backgroundSize="25px 25px";
 	document.getElementsByClassName("star")[0].style.top="105px";
 	document.getElementsByClassName("star")[0].style.left="283px";
-	document.getElementsByClassName("star")[0].style.zIndex="10";
+	document.getElementsByClassName("star")[0].style.zIndex="7";
 	document.getElementsByClassName("star")[0].style.opacity=".8";
 	if(star == 0) {
 		document.getElementsByClassName("star")[0].style.backgroundImage="url('images/starGrey.png')"
