@@ -9,13 +9,19 @@
 	</head>
 
 <body class="croudzBackground">
-        
+
+	<p id="noteGoBack">
+		Note:</br>
+		Click anywhere on the map </br>
+		to go back to the main page
+	</p>
+
     <div class="mid">
         <div class="phone" background="images/phone.jpg"></div>
-        
+
             <!--Put everything here, This is the contents within the screen-->
             <div class="screen"  onclick="removeInfo()">
-                
+
                 <div id="androidBar">
                     <div id=statusBarIcons>
                         <img src="images/cellSignal.png"></img>
@@ -25,23 +31,44 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <form>
                     <input type="text" id="fname" name="fname">
                 </form>
-            
-                <button class="back"  onclick=javascript:location.href="MainPage.html">
+
+                <button class="back"  onclick=javascript:location.href="searchPage.html">
                     <div class="backArrow">&#8592;</div>
                 </button>
-             
+
                 <button class="search" onclick="document.getElementById('results').style.display = 'block'"><i class="material-icons">search</i>
                 </button>
-                
+
                 <img id = "keys" class = "keys" src="images/keyboard.png">
                 <img id="results" class="results"src="images/searchResults.png"/>
-            
+
                 <!--end of screen-->
-                
+
+				<div id="mapIcons">
+					<div id="Churchill">
+						<img src="images/flowerGreen.png"></img>
+					</div>
+					<div id="Cafe">
+						<img src="images/cafeYellow.png"></img>
+					</div>
+					<div id="Cafe2">
+						<img src="images/cafeYellow.png"></img>
+					</div>
+					<div id="store1">
+						<img src="images/storeGreen.png"></img>
+					</div>
+					<div id="store2">
+						<img src="images/storeGreen.png"></img>
+					</div>
+
+					<div id="backgroundClick" onclick=javascript:location.href="MainPage.html">
+					</div>
+				</div>
+
                 </div>
             </div>
         </div>
@@ -53,20 +80,3 @@
 
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

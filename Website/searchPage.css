@@ -7,7 +7,6 @@ input[type=text]{
 }
 
 button.back {
-   
     background: solid;
     background-color: white;
     border: -5px;
@@ -21,7 +20,7 @@ button.back {
 }
 
 button.search{
-    
+
     margin-top: 393px;
     margin-left: 275px;
     background: transparent;
@@ -35,14 +34,63 @@ button.search{
     height: 220px;
     margin-top: 255px;
 }
+
 .results {
     positio: absolute;
     display:none;
     width: 100%;
     height: 220px;
     margin-top: -480px;
-    
-    
 }
 
+#noteGoBack{
+	color: black;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	position:absolute;
+	z-index: 5;
+	top: 60%;
+	left: 18%;
+}
 
+#backgroundClick {
+	width: 317px;
+	height: 255px;
+	background-color: black;
+	opacity: 0;
+	position:absolute;
+	top:87px;
+}
+
+#mapIcons {
+    z-index:3;
+}
+
+#Churchill{
+	position:absolute;
+	margin-top: -455px;
+	margin-left: 236px;
+}
+
+#Cafe{
+	position:absolute;
+	margin-top: -300px;
+	margin-left: 186px;
+}
+
+#Cafe2 {
+	position:absolute;
+	margin-top: -375px;
+	margin-left: 53px;
+}
+
+#store1 {
+	position:absolute;
+	margin-top: -370px;
+	margin-left: 122px;
+}
+
+#store2 {
+	position:absolute;
+	margin-top: -275px;
+	margin-left: 53px;
+}
