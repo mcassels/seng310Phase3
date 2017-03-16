@@ -36,11 +36,12 @@ button.search{
 }
 
 .results {
-    positio: absolute;
+    position: absolute;
     display:none;
     width: 100%;
     height: 220px;
     margin-top: -480px;
+	z-index: 5;
 }
 
 #noteGoBack{
@@ -62,35 +63,35 @@ button.search{
 }
 
 #mapIcons {
-    z-index:3;
+    z-index:1;
 }
 
 #Churchill{
 	position:absolute;
-	margin-top: -455px;
-	margin-left: 236px;
+	top: 100px;
+	left: 0px;
 }
 
 #Cafe{
 	position:absolute;
-	margin-top: -300px;
-	margin-left: 186px;
+	top: 102px;
+	left: 0px;
 }
 
 #Cafe2 {
 	position:absolute;
-	margin-top: -375px;
-	margin-left: 53px;
+	top: 104px;
+	left: 0px;
 }
 
 #store1 {
 	position:absolute;
-	margin-top: -370px;
-	margin-left: 122px;
+	top: 104px;
+	left: 0px;
 }
 
 #store2 {
 	position:absolute;
-	margin-top: -275px;
-	margin-left: 53px;
+	top: 104px;
+	left: 0px;
 }
