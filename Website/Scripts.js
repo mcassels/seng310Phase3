@@ -142,9 +142,9 @@ function showMoreInfo() {
 	document.getElementsByClassName("moreInfo")[0].style.marginTop="0px";
 	//document.getElementsByClassName("infoBar")[0].style.backgroundColor="black";
 	document.getElementsByClassName("moreInfo")[0].style.backgroundSize="317px 408px";
-	document.getElementsByClassName("moreInfo")[0].style.zIndex="1";
+	document.getElementsByClassName("moreInfo")[0].style.zIndex="5";
 	createMistake();
-	selectTime();
+	/*selectTime();*/
 
 	if (x==0) {
 		document.getElementsByClassName("moreInfo")[0].style.backgroundImage="url('images/moreCart.png')";
